@@ -1,0 +1,317 @@
+/* GENERAL */
+
+:root {
+	font-size: 20px;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+				line-height: 1.5;
+}
+
+body {
+	color: black;
+	font-family: 'Thasadith', sans-serif;
+}
+
+/* text */
+
+p {
+	font-size: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 12vw;
+	color: white;
+}
+
+h4 {
+	font-size: 1.75rem;
+	color: black;
+}
+
+h5 {
+	font-size: 1.5rem;
+	color: white;
+}
+
+h6 {
+	font-size: 1.25rem;
+	color: black;
+	line-height: 1.5;
+}
+
+main h6 {
+	width: 80%;
+	margin: auto auto;
+}
+
+.display-4 {
+    font-size: 2rem;
+}
+
+a:hover {
+	text-decoration: none;
+	color: pink!important;
+}
+
+/* ICONS */
+
+.fab {
+	font-size: 30px;
+	transition-duration: .3s;
+	cursor: pointer;
+}
+
+.fab:hover {
+	transform: scale(1.15) translateY(-5px);
+	color: #292828;
+}
+
+/* home page images and "Cakes" image hover effects */
+
+.handle-overflow,
+.card {
+	overflow: hidden;
+}
+
+.handle-overflow img {
+	transition-property: transform, filter;
+	transition-duration: .5s;
+}
+
+.handle-overflow img:hover {
+	transform: scale(1.07);
+	filter: grayscale(70%);
+}
+
+.card img {
+	transition: transform .6s;
+}
+
+.card img:hover {
+	transform: scale(1.07);
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 3px 3px 10px 0 #000000;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+
+/* all other styles */
+
+/* .sub-logo {
+	font-size: 3vw;
+	color: white;
+} */
+
+.jumbotron {
+		  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(https://res.cloudinary.com/djad06sng/image/upload/v1547312542/mainpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+				background-position: bottom;
+				border-radius: 0;
+}
+
+.sub-logo {
+	color: white;
+	font-size: 1.5rem;
+}
+
+
+.BORDER {
+	border-left: 2px solid black;
+}
+
+main {
+				background-image: linear-gradient(white, pink);
+}
+
+#pink {
+    background-color: #af8c98 !important;
+}
+
+.card-title {
+	color: black;
+}
+
+.nav-link {
+	color: white!important;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 1.5rem;
+	padding-right: 3vw!important;
+	transition: background-color, color;
+	transition-duration: 1s;
+	position: relative;
+}
+
+.nav-link:hover {
+	background-color: rgba(156, 20, 38, 0.384);
+}
+
+.card-body {
+	color: black;
+}
+
+hr {
+	margin: 0;
+	margin-top: 40px;
+	color: #3b3737;
+	
+}
+
+.card-group {
+	width: 90%;
+ margin: auto;
+}
+
+.trifecta {
+	width: 100%;
+	margin: auto;
+}
+
+.container-form {
+	 width: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: overlay;  
+  background-image:url("https://res.cloudinary.com/djad06sng/image/upload/v1547312542/mainpic.jpg"), linear-gradient(white, rgba(246, 96, 164, 0.5)); 
+}
+
+.btn-primary {
+	color: black;
+ background-color: pink;
+	border-color: pink;
+	transition: all 1s ease;
+}
+
+.btn-primary:hover {
+	color: black;
+	background-color: #fa84ac;
+	border-color: #fa84ac;
+}
+
+label {
+	font-weight: bold;
+}
+
+.BUTTON {
+	border-radius: 15px;
+	background-color: gray;
+	padding: 20px;
+	font-size: 30px;
+}
+
+/* FOOTER */
+
+footer {
+	background-image: linear-gradient(to bottom left, pink, #ff6d9e);
+}
+
+
+#quote {
+	width: 70%;
+	padding: 2vw;
+	margin: 3vw auto;
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 20px;
+	transition-duration: 1s;
+}
+
+#quote:hover {
+	transform: scale(1.1);
+}
+
+#quote p {
+	font-family: 'Homemade Apple', cursive;
+	text-align: center;
+	font-size: 1rem;
+	margin: 0;
+
+}
+
+/* MEDIA QUERIES */
+
+
+
+
+
+@media (max-width: 992px) {
+	
+
+}
+
+
+ /*//Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) { 
+
+}
+
+	
+	@media screen and (min-width: 768px) {
+		
+		:root {
+			font-size: 20px;
+	}
+		
+		.trifecta {
+			width: 80%;
+	}
+		
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+		
+		.card-group {
+			width: 70%;
+ 		margin: auto;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+	
+	.trifecta {
+			width: 85%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.trifecta {
+			width: 65%;
+	}
+}
+	
+	
+	
+	
+
+
+
+

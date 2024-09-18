@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Place An Order</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="cake.css">
+</head>
+<body>
+	<!-- navbar -->
+<nav id="pink" class="navbar navbar-expand-lg navbar-light bg-light">
+  	<a class="navbar-brand" href="index.html"><img src="logo1.png" alt="brand logo" width="100px"></a>
+	  <style>
+		.navbar{
+		padding: .1px
+				  }
+				  /* .navbar-nav{
+				margin-left: 49px;
+			  } */
+		</style>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav text-right">
+
+		<!-- <ul class="navbar-nav text-left">
+			<li class="nav-item">
+				aira
+			  </li></ul> -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cakes.html">Cakes</a>
+      </li>
+					 <li class="nav-item">
+        <a class="nav-link" href="placeAnOrder.html">Place an Order</a>
+      </li>
+    </ul>
+	
+  </div>
+</nav>
+
+	<body>
+		<!-- what we need to know: 
+1. how many cakes
+2. what occasion
+3. your budget
+4. how soon you need the cake(s)
+ then call or email -->
+<main>
+		<div class="row justify-content-center" id="white">
+			<div class="col-10 col-md-6">
+			<h6 class="pt-5 pb-5 text-center">If you are interested in learning what exactly we can do for you, please fill out the form below. We will contact you via your preferred method of communication to give you a free estimate and/or to schedule a consultation if you need assistance in designing the cake of your dreams. We look forward to hearing from you!</h6>
+			</div>
+		</div>
+			<div class="container-form pb-5 pt-5">
+				<div class="row justify-content-center">
+    	<div class="col-11 col-md-8">
+							<form class="pt-2">
+  						<div class="form-group">
+    					<label for="exampleFormControlInput1">Email address</label>
+    					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  					</div>
+							<div class="form-group">
+    				<label for="exampleFormControlInput1">Phone Number</label>
+    				<input type="number" class="form-control" id="exampleFormControlInput1" placeholder="123-456-7890">
+  				</div>
+			 		<div class="form-group">
+    				<label for="exampleFormControlSelect1">Preferred Method of Contact</label>
+    				<select class="form-control" id="exampleFormControlSelect1">
+      				<option>E-mail</option>
+      				<option>Phone</option>
+    			</select>
+  			</div>
+  				<div class="form-group">
+    				<label for="exampleFormControlSelect1">Number of Cakes</label>
+    				<select class="form-control" id="exampleFormControlSelect1">
+      				<option>1</option>
+      				<option>2</option>
+      				<option>3</option>
+      				<option>4</option>
+      				<option>5+</option>
+    			</select>
+  			</div>
+  		<div class="form-group NoMarginBottom">
+    		<label for="exampleFormControlTextarea1">Tell us a little more about what you want...</label>
+   		 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+ 		 </div>
+					<button type="button" data-toggle="modal" class="btn btn-primary mx-auto btn-lg btn-block" data-target="#notification">Submit</button>
+		</form>
+		</div>
+</div>		
+	
+<div class="modal fade notification" id="notification" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h6 class="modal-title">Thanks for contacting us!</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-center">We will respond to you as soon as we can! :)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>	
+</main>
+		<!-- footer -->
+	<footer class="pt-4 pb-4">
+		<div class="row align-items-center">
+			<div class="col-lg-6 text-center pl-4 pr-4">
+				<i class="fas fa-laptop"></i><p class="icon" class="pl-2">Email: rajalakshmirk333@gmail.com</p>
+				<i class="fas fa-phone"></i><p class="icon" class="pl-2">7094959876</p>
+				<i class="fas fa-map-marker-alt"></i><p class="icon" class="pl-2">Anagha E-15,Visthara Apartments,Vilangudi,Madurai-625402</p>
+				<p>&copy; Aira Cakes</p>
+  	</div>
+			<div class="social col-lg-6 align-middle text-center BORDER BORDER2">
+					<p>Follow us on social media!</p>
+						<i class="fab fa-instagram pr-2"></i>
+						<i class="fab fa-facebook pr-2"></i>
+					<i class="fab fa-twitter pr-2"></i>
+				</div>
+			<div id="quote">
+				<p>&ldquo;Cakes are special. Every birthday, every celebration ends with something sweet, a cake, and people remember. It's all about the memories.&rdquo; - Buddy Valastro</p>
+		</div>
+	</footer>
+	
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+	</body>
+	
+</html>
+
